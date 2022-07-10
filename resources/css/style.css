@@ -166,3 +166,58 @@ nav {
     font-size: 1.5rem;
     color: cornflowerblue;
 }
+
+/*Course section*/
+
+#courses {
+    width: 100%;
+    height: auto;
+    background-color: lightgrey;
+}
+
+.courses-container {
+    padding: 2rem 4.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: stretch;
+    padding-bottom: 2rem;
+}
+
+.course {
+    min-height: 20rem;
+    width: 30%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.course-img {
+    width: auto;
+    height: auto;
+}
+
+.course-descriptions {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+    padding-right: 1rem;
+}
+
+.course-title {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.courses {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.course-list {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
