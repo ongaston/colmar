@@ -175,6 +175,13 @@ nav {
     background-color: lightgrey;
 }
 
+#start-learning {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 2rem;
+    text-align: center;
+}
+
 .courses-container {
     padding: 2rem 4.5rem;
     display: flex;
