@@ -3,9 +3,6 @@ main {
     top: 4rem;
 }
 
-body {
-    background-color: darkgrey;
-}
 
 
 /*nav bar*/
@@ -86,4 +83,86 @@ nav {
     margin: 2rem 0;
     width: 15rem;
     height: 2.5rem;
+}
+
+
+/*articles/information section*/
+
+#articles {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+#main-article {
+    display: inline-flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#main-pic {
+    padding: 2rem 1.5rem;
+    width: auto;
+    height: auto;
+}
+
+#main-title {
+    font-weight: bold;
+    font-size: 2.3rem;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.description {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#main-desc {
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+    padding-top: 0;
+}
+
+#source {
+    font-size: 1rem;
+    padding-left: 1.5rem;
+}
+
+#side-container {
+    display: inline-flex;
+    flex-direction: column;
+    height: auto;
+    width: 40%;
+}
+
+.side-articles {
+    display: inline-flex;
+    border: lightgrey solid 1px;
+}
+
+.article-pic {
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+}
+
+.side-word-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.read-more {
+    font-size: 1.5rem;
+    color: cornflowerblue;
 }
