@@ -4,7 +4,7 @@ main {
 }
 
 body {
-    background-color: black;
+    background-color: darkgrey;
 }
 
 
@@ -43,3 +43,47 @@ nav {
     width: 31.25rem;
 }
 
+/*banner*/
+
+#banner {
+    height: auto;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#banner-img {
+    width: 60%;
+    height: auto;
+    padding: 2rem 1.5rem;
+    display: inline-block;
+}
+
+#banner-container {
+    position: relative;
+    height: auto;
+    max-width: 30%;
+    display: inline-flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    justify-content: center;
+}
+
+#banner-title {
+    margin: 2rem 0;
+}
+
+#banner-sub {
+    margin: 2rem auto;
+}
+
+#start {
+    background-color: #363636;
+    border: none;
+    margin: 2rem 0;
+    width: 15rem;
+    height: 2.5rem;
+}
