@@ -1,11 +1,13 @@
 html {
     font-size: 16px;
+    background-color: aliceblue;
 }
 
 main {
     position: relative;
     top: 4rem;
     font-family: 'Nanum Gothic', sans-serif;
+
 }
 
 h1, h2, h3, h4, h5, a {
@@ -28,29 +30,33 @@ header .mobile {
     margin-top: 0.5rem;
 }
 
-#l-yellow, #d-yellow, #l-green, #d-green, #brown {
+#l-yellow, #d-yellow, #l-green, #d-green, #brown, #dark {
     height: 1.5rem;
     width: 1.5rem;
 }
 
 #l-yellow {
-    background-color: #c8b272;
+    background-color: #A0Aeb1;
 }
 
 #d-yellow {
-    background-color: #a88b4c;
+    background-color: #c1a89b;
 }
 
 #l-green {
-    background-color: #a0a584
+    background-color: #978183
 }
 
 #d-green {
-    background-color: #697153;
+    background-color: #a07555;
 }
 
 #brown {
-    background-color: #43362a;
+    background-color: #845d4f;
+}
+
+#dark {
+    background-color: #453C3D;
 }
 
 /*nav bar*/
@@ -90,8 +96,16 @@ header .mobile {
     justify-content: center;
     align-items: center;
     height: 4rem;
+
+
+}
+
+#home-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
     max-width: 50%;
-    padding-left: 1.5rem;
 }
 
 .nav-bar ul {
@@ -101,6 +115,11 @@ header .mobile {
     height: 4rem;
     width: 31.25rem;
     font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-bar a:hover {
+    color: #262626;
 }
 
 @media only screen and (max-width: 480px) {
@@ -135,7 +154,7 @@ header .mobile {
 #banner {
     height: auto;
     width: 100%;
-    background-color: #d8d8d8;
+    background-color: #a0aeb1;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -163,24 +182,35 @@ header .mobile {
     margin: 2rem 0;
     font-weight: 800;
     font-size: 3.5rem;
+    color: aliceblue;
 }
 
 #banner-sub {
     margin: 2rem 0;
     font-weight: 700;
     font-size: 2rem;
+    color: #453C3D;
 }
 
 #start {
-    background-color: #4a4a4a;
+    background-color: #978183;
     border: none;
     margin: 2rem 0;
     width: 90%;
     height: 3.5rem;
     font-family: 'Nanum gothic', sans-serif;
-    color: white;
-    /*font-weight: bold;*/
+    color: aliceblue;
+    font-weight: bold;
     font-size: 1.5rem;
+}
+
+#start:hover {
+    background-color: #453C3D
+}
+
+#start:active {
+    box-shadow: inset -2px -2px 10px #292425;
+    box-shadow: inset 2px 2px 10px #292425;
 }
 
 
@@ -198,6 +228,7 @@ header .mobile {
     display: inline-flex;
     flex-direction: column;
     width: 60%;
+    background-color: aliceblue;
 }
 
 #main-pic {
@@ -215,15 +246,17 @@ header .mobile {
 }
 
 .description {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1.5rem;
+    color: #453C3D;
 }
 
 #main-desc {
     padding-left: 1.5rem;
     padding-bottom: 2rem;
     padding-top: 0;
+    color: #4a4a4a;
 }
 
 #source {
@@ -241,6 +274,14 @@ header .mobile {
 .side-articles {
     display: inline-flex;
     border: lightgrey solid 1px;
+    background-color: #978183
+}
+.side-articles:hover {
+    background-color:#453C3D;
+}
+
+.side-articles:hover .description {
+    color: rgb(195, 199, 202);
 }
 
 .article-pic {
@@ -258,11 +299,13 @@ header .mobile {
 .article-title {
     font-size: 2rem;
     font-weight: bold;
+    color: aliceblue;
+    padding-bottom: 1.5rem;
 }
 
-.read-more {
+.article-link {
     font-size: 1.5rem;
-    color: cornflowerblue;
+    color: #97c4cd;
 }
 
 /*Course section*/
