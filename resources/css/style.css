@@ -6,13 +6,7 @@ main {
 
 
 /*nav bar*/
-nav {
-    height: 4rem;
-    background-color: white;
-    width: 100%;
-    position: fixed;
-    z-index: 10;
-}
+
 
 .nav-bar {
     display: flex;
@@ -21,6 +15,9 @@ nav {
     z-index: 10;
     height: 4rem;
     width: 100%;
+    z-index: 10;
+    position: fixed;
+    background-color: white;
 }
 
 #logo-and-title {
@@ -272,7 +269,7 @@ nav {
 }
 
 #urban-desc {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 #theses-container {
@@ -320,3 +317,26 @@ nav {
 .t-desc {
     font-size: 1.3rem;
 }
+
+
+/*footer*/
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 4rem;
+    border-top: solid lightgrey 1px;
+    position: relative;
+    top: 2rem;
+}
+
+.footer {
+    font-size: 1rem;
+}
+
+#footer-links {
+    display: inline-flex;
+    min-width: 10%;
+    justify-content: space-between;
+}
+
