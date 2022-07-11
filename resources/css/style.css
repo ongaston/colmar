@@ -126,7 +126,7 @@ main .mobile {
     color: #262626;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 760px) {
     header .desktop {
         display: none;
     }
@@ -218,7 +218,7 @@ main .mobile {
     box-shadow: inset 2px 2px 10px #292425;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 760px) {
     .desktop {
         display: none;
     }
