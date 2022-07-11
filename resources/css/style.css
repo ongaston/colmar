@@ -1,10 +1,56 @@
+html {
+    font-size: 16px;
+}
+
 main {
     position: relative;
     top: 4rem;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+h1, h2, h3, h4, h5, a {
+    color: #4a4a4a;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 header .mobile {
     display: none;
+}
+
+/*Temp color palette*/
+#container {
+    display: flex;
+    height: 3.5rem;
+    width: 3.5rem;
+    flex-wrap: wrap;
+    position: fixed;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#l-yellow, #d-yellow, #l-green, #d-green, #brown {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#l-yellow {
+    background-color: #c8b272;
+}
+
+#d-yellow {
+    background-color: #a88b4c;
+}
+
+#l-green {
+    background-color: #a0a584
+}
+
+#d-green {
+    background-color: #697153;
+}
+
+#brown {
+    background-color: #43362a;
 }
 
 /*nav bar*/
@@ -20,6 +66,23 @@ header .mobile {
     z-index: 10;
     position: fixed;
     background-color: white;
+    opacity: 90%;
+}
+
+#heading {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#academy {
+    color: #9b9b9b;
+    font-weight: lighter;
+}
+
+#logo {
+    height: 3rem;
+    width: 3rem;
 }
 
 #logo-and-title {
@@ -37,6 +100,7 @@ header .mobile {
     align-items: center;
     height: 4rem;
     width: 31.25rem;
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 480px) {
@@ -71,7 +135,7 @@ header .mobile {
 #banner {
     height: auto;
     width: 100%;
-    background-color: grey;
+    background-color: #d8d8d8;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -97,18 +161,26 @@ header .mobile {
 
 #banner-title {
     margin: 2rem 0;
+    font-weight: 800;
+    font-size: 3.5rem;
 }
 
 #banner-sub {
-    margin: 2rem auto;
+    margin: 2rem 0;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 #start {
-    background-color: #363636;
+    background-color: #4a4a4a;
     border: none;
     margin: 2rem 0;
-    width: 15rem;
-    height: 2.5rem;
+    width: 90%;
+    height: 3.5rem;
+    font-family: 'Nanum gothic', sans-serif;
+    color: white;
+    /*font-weight: bold;*/
+    font-size: 1.5rem;
 }
 
 
