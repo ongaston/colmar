@@ -195,6 +195,7 @@ header .mobile {
 #start {
     background-color: #978183;
     border: none;
+    border-radius: 3px;
     margin: 2rem 0;
     width: 90%;
     height: 3.5rem;
@@ -274,7 +275,8 @@ header .mobile {
 .side-articles {
     display: inline-flex;
     border: lightgrey solid 1px;
-    background-color: #978183
+    background-color: #978183;
+    border-radius: 3px;
 }
 .side-articles:hover {
     background-color:#453C3D;
@@ -313,14 +315,18 @@ header .mobile {
 #courses {
     width: 100%;
     height: auto;
-    background-color: lightgrey;
+    background-color: #453c3d;
 }
 
 #start-learning {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 3rem;
+    font-weight: 800;
     padding-top: 2rem;
     text-align: center;
+    text-transform: full-width;
+    padding-bottom: 1.5rem;
+    opacity: 90%;
+    color: aliceblue;
 }
 
 .courses-container {
@@ -337,8 +343,16 @@ header .mobile {
     width: 30%;
     display: inline-flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #7B8F93;
+    border: solid #5e6c6f 2px;
+    border-radius: 3px;
 }
+
+.course:hover {
+    background-color: #A0Aeb1;
+    border: solid #7B8F93 2px;
+}
+
 
 .course-img {
     width: auto;
@@ -350,24 +364,26 @@ header .mobile {
     flex-direction: column;
     padding-left: 1rem;
     padding-top: 1rem;
-    background-color: white;
     padding-right: 1rem;
 }
 
 .course-title {
     font-weight: bold;
     font-size: 2rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1.5rem;
+    color: aliceblue;
 }
 
 .courses {
-    font-size: 1.5rem;
-    padding-bottom: 0.5rem;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    color: #453C3D;
 }
 
 .course-list {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-bottom: 2rem;
+    color: #453C3D;
 }
 
 
