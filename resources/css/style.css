@@ -400,7 +400,7 @@ header .mobile {
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 #theses {
@@ -425,7 +425,7 @@ header .mobile {
 
 #urban {
     padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 #urban-desc {
@@ -444,6 +444,18 @@ header .mobile {
     height: auto;
     width: auto;
     align-items: center;
+    border: solid #453C3D 1px;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    background-color: #453C3D;
+}
+
+.thesis-container:hover {
+    background-color: #292425;
+}
+
+.thesis-container:hover .t-title, .t-desc {
+    
 }
 
 .thesis-side {
@@ -466,16 +478,23 @@ header .mobile {
 }
 
 .thesis-description {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .t-title {
     font-size: 1.8rem;
     font-weight: bold;
+    color: aliceblue;
 }
 
 .t-desc {
     font-size: 1.3rem;
+    color: #a0aeb1;
+}
+
+.t-title, .t-desc {
+    padding-right: 15%;
+    line-height: 1.5;
 }
 
 
@@ -485,13 +504,15 @@ header .mobile {
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem 4rem;
-    border-top: solid lightgrey 1px;
+    border: solid #292425 1px;
     position: relative;
     top: 2rem;
+    background-color: #453C3D;
 }
 
 .footer {
     font-size: 1rem;
+    color:#A0Aeb1;
 }
 
 #footer-links {
