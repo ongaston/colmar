@@ -377,8 +377,8 @@ main .mobile {
         width: 100%;
         height: auto;
         align-content: center;
-        margin-bottom: 2rem;
-        background-color: #453C3D;;
+        background-color: #453C3D;
+        border-bottom: solid #292425 3px;
     }
 
     .side-articlesm {
@@ -491,6 +491,43 @@ main .mobile {
     font-size: 1.3rem;
     padding-bottom: 2rem;
     color: #453C3D;
+}
+
+@media only screen and (max-width: 480px) {
+
+    #coursesm {
+        background-color: #978183;
+        padding-bottom: 2rem;
+        padding-top: 1.5rem;
+    }
+
+    #start-learningm {
+        text-align: center;
+        font-size: 3rem;
+        color: aliceblue;
+        font-weight: 800;
+        padding-bottom: 1.5rem;
+    }
+
+    .coursem {
+        background-color: #7B8F93;
+        border: solid #5e6c6f 2px;
+        border-radius: 3px;
+        margin: 0.5rem 2rem;
+    }
+
+    .course-imgm, .coursesm, .course-listm {
+        display: none;
+    }
+
+    .course-titlem {
+        padding: 1.5rem 1rem;
+        text-overflow: wrap;
+        font-weight: 700;
+        font-size: 2rem;
+        color: aliceblue;
+    }
+
 }
 
 
