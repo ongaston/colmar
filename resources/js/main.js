@@ -1,57 +1,40 @@
 $(document).ready(() => {
 
-    $('#software').on('click', () => {
+    $('#software').on('click', event => {
         $('.expands').toggle();
-        $('.expandc').hide();
-        $('.expandde').hide();
-        $('.expandda').hide();
-        $('.expandb').hide();
-        $('.expandm').hide();
+
+        $(event.currentTarget).siblings().children().contents().not($('.course-titlem')).hide();
+        $(event.currentTarget).siblings().children().filter('img').hide();
     })
 
-    $('#computer-art').on('click', () => {
+    $('#computer-art').on('click', event => {
         $('.expandc').toggle();
-        $('.expands').hide();
-        $('.expandde').hide();
-        $('.expandda').hide();
-        $('.expandb').hide();
-        $('.expandm').hide();
+        $(event.currentTarget).siblings().children().contents().not($('.course-titlem')).hide();
+        $(event.currentTarget).siblings().children().filter('img').hide();
     })
 
-    $('#design').on('click', () => {
+    $('#design').on('click', event => {
         $('.expandde').toggle();
-        $('.expandc').hide();
-        $('.expands').hide();
-        $('.expandda').hide();
-        $('.expandb').hide();
-        $('.expandm').hide();
+        $(event.currentTarget).siblings().children().contents().not($('.course-titlem')).hide();
+        $(event.currentTarget).siblings().children().filter('img').hide();
     })
 
-    $('#data').on('click', () => {
+    $('#data').on('click', event => {
         $('.expandda').toggle();
-        $('.expandc').hide();
-        $('.expandde').hide();
-        $('.expands').hide();
-        $('.expandb').hide();
-        $('.expandm').hide();
+        $(event.currentTarget).siblings().children().contents().not($('.course-titlem')).hide();
+        $(event.currentTarget).siblings().children().filter('img').hide();
     })
 
-    $('#business').on('click', () => {
+    $('#business').on('click', event => {
         $('.expandb').toggle();
-        $('.expandc').hide();
-        $('.expandde').hide();
-        $('.expandda').hide();
-        $('.expands').hide();
-        $('.expandm').hide();
+        $(event.currentTarget).siblings().children().contents().not($('.course-titlem')).hide();
+        $(event.currentTarget).siblings().children().filter('img').hide();
     })
 
-    $('#marketing').on('click', () => {
+    $('#marketing').on('click', event => {
         $('.expandm').toggle();
-        $('.expandc').hide();
-        $('.expandde').hide();
-        $('.expandda').hide();
-        $('.expandb').hide();
-        $('.expands').hide();
+        $(event.currentTarget).siblings().children().contents().not($('.course-titlem')).hide();
+        $(event.currentTarget).siblings().children().filter('img').hide();
     })
 
 

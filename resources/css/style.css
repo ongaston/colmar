@@ -555,6 +555,14 @@ main .mobile {
         padding-right: 1rem;
     }
 
+    .active {
+        display: inline-block;
+    }
+
+    .disabled {
+        display: none;
+    }
+
 }
 
 
