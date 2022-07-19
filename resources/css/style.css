@@ -450,6 +450,7 @@ main .mobile {
     padding-bottom: 2rem;
 }
 
+
 .course {
     min-height: 20rem;
     width: 30%;
@@ -532,6 +533,10 @@ main .mobile {
         font-weight: 700;
         font-size: 2rem;
         color: aliceblue;
+    }
+
+    .expands {
+        display: none;
     }
 
 }
