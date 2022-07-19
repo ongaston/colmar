@@ -1,5 +1,6 @@
 $(document).ready(() => {
 
+
     const $software = $('#software');
     const $computerArt = $('#computer-art');
     const $design = $('#design');
@@ -14,18 +15,6 @@ $(document).ready(() => {
     const $expandb = $('.expandb');
     const $expandm = $('.expandm');
 
-    const $courseTitle = $('.course-titlem');
-
-    /*const $courseButton = $('.coursem');*/
-    /*const $courseInfo = $('.expand');
-
-    $courseButton.on('click', () => {
-        $courseInfo.show();
-    });
-
-    $courseTitle.on('click', () => {
-        $courseInfo.hide();
-    });*/
 
 
     let $softwarei = false;
@@ -80,7 +69,7 @@ $(document).ready(() => {
         }
         else if ($datai===true) {
             $expandda.hide();
-            $expandda = !$datai;
+            $datai = !$datai;
         }
     });
 

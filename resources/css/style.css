@@ -535,8 +535,24 @@ main .mobile {
         color: aliceblue;
     }
 
-    .expands {
-        display: none;
+    .course-imgm {
+        width: 100%;
+    }
+
+    .coursesm {
+        text-align: center;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+        color: #453C3D;
+    }
+
+    .course-listm {
+        text-align: center;
+        font-size: 1.3rem;
+        padding-bottom: 2rem;
+        color: #453C3D;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
 }
