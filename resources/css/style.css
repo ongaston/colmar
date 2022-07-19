@@ -718,3 +718,13 @@ main .mobile {
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 480px) {
+    .footer {
+        max-width: 50%;
+        text-overflow: wrap;
+    }
+
+    #footer-links {
+        min-width: 30%;
+    }
+}
